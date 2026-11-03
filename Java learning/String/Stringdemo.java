@@ -1,3 +1,4 @@
+import java.util.*;
 public class Stringdemo{
     public static void main(String args[]){
         char arr[] = {'a','b','c','d'};
@@ -5,6 +6,8 @@ public class Stringdemo{
         String str  = "abcd";
         String str2 = new String("xyz");
   
-        //Strings are immutable - can`t change the elements
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println(name);
     }
 }
