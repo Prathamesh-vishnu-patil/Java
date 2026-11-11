@@ -1,4 +1,5 @@
 import java.util.*;
+//can be optimized by Dynamic Programming
 public class fibonacci{ //T.C = O(2^n)  S.C=0(n)
     public static long calcFibonnaci(int n){
         if(n==0 || n==1){
